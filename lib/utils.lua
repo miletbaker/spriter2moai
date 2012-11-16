@@ -1,4 +1,4 @@
-local function printf ( ... )
+function printf ( ... )
 	return io.stdout:write ( string.format ( ... ))
 end
 
