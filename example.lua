@@ -2,7 +2,7 @@ local anim = {
 	['Idle'] = {
 		[1] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -15,7 +15,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[2] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -28,7 +28,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[3] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -41,7 +41,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[4] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -54,7 +54,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[5] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -67,7 +67,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[6] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -80,7 +80,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[7] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -93,7 +93,7 @@ local anim = {
 				['pivot_y'] = 36
 			},
 			[8] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -121,7 +121,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[2] = {
-				['angle'] = 3.988,
+				['angle'] = 358.632,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -134,7 +134,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[3] = {
-				['angle'] = 4.38079,
+				['angle'] = 3.01279,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -147,7 +147,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[4] = {
-				['angle'] = 2.05621,
+				['angle'] = 5.069,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -160,7 +160,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[5] = {
-				['angle'] = 1.86613,
+				['angle'] = 6.93513,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -173,7 +173,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[6] = {
-				['angle'] = -2.94297,
+				['angle'] = 3.99216,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -186,7 +186,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[7] = {
-				['angle'] = -3.99216,
+				['angle'] = 0,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -199,7 +199,7 @@ local anim = {
 				['pivot_y'] = 82
 			},
 			[8] = {
-				['angle'] = -1.88,
+				['angle'] = 358.12,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -227,7 +227,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[2] = {
-				['angle'] = 5.878,
+				['angle'] = 354.677,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -240,7 +240,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[3] = {
-				['angle'] = 6.45742,
+				['angle'] = 1.13442,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -253,7 +253,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[4] = {
-				['angle'] = 8.7844,
+				['angle'] = 9.91882,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -266,7 +266,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[5] = {
-				['angle'] = 7.97238,
+				['angle'] = 17.8912,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -279,7 +279,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[6] = {
-				['angle'] = -6.8902,
+				['angle'] = 11.001,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -292,7 +292,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[7] = {
-				['angle'] = -9.34667,
+				['angle'] = 1.65433,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -305,7 +305,7 @@ local anim = {
 				['pivot_y'] = 49
 			},
 			[8] = {
-				['angle'] = -4.51333,
+				['angle'] = 357.141,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -333,7 +333,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[2] = {
-				['angle'] = 4.976,
+				['angle'] = 355.604,
 				['texture'] = 'hand_a_0.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -346,7 +346,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[3] = {
-				['angle'] = 5.46682,
+				['angle'] = 1.07082,
 				['texture'] = 'hand_a_0.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -359,7 +359,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[4] = {
-				['angle'] = 5.72297,
+				['angle'] = 6.79379,
 				['texture'] = 'hand_a_1.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -372,7 +372,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[5] = {
-				['angle'] = 5.19391,
+				['angle'] = 11.9877,
 				['texture'] = 'hand_a_2.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -385,7 +385,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[6] = {
-				['angle'] = -4.88623,
+				['angle'] = 7.10147,
 				['texture'] = 'hand_a_3.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -398,7 +398,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[7] = {
-				['angle'] = -6.628283,
+				['angle'] = 0.473187,
 				['texture'] = 'hand_a_3.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -411,7 +411,7 @@ local anim = {
 				['pivot_y'] = 47
 			},
 			[8] = {
-				['angle'] = -3.457187,
+				['angle'] = 357.016,
 				['texture'] = 'hand_a_2.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -426,7 +426,7 @@ local anim = {
 		},
 		[5] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -439,7 +439,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[2] = {
-				['angle'] = -0.871,
+				['angle'] = 359.129,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -452,7 +452,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[3] = {
-				['angle'] = -0.957,
+				['angle'] = 358.172,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -465,7 +465,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[4] = {
-				['angle'] = -0.528,
+				['angle'] = 357.644,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -478,7 +478,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[5] = {
-				['angle'] = -0.479,
+				['angle'] = 357.165,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -491,7 +491,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[6] = {
-				['angle'] = 0.207,
+				['angle'] = 357.372,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -504,7 +504,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[7] = {
-				['angle'] = 0.282,
+				['angle'] = 357.654,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -517,7 +517,7 @@ local anim = {
 				['pivot_y'] = 133
 			},
 			[8] = {
-				['angle'] = 0.823,
+				['angle'] = 358.477,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -532,7 +532,7 @@ local anim = {
 		},
 		[6] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -558,7 +558,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[3] = {
-				['angle'] = 0.743482,
+				['angle'] = 1.42027,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -571,7 +571,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[4] = {
-				['angle'] = 2.17656,
+				['angle'] = 3.59683,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -584,7 +584,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[5] = {
-				['angle'] = 1.97537,
+				['angle'] = 5.5722,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -597,7 +597,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[6] = {
-				['angle'] = 0.46387,
+				['angle'] = 6.03607,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -610,7 +610,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[7] = {
-				['angle'] = 0.62926,
+				['angle'] = 6.66533,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -623,7 +623,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[8] = {
-				['angle'] = -2.34029,
+				['angle'] = 4.32504,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -638,7 +638,7 @@ local anim = {
 		},
 		[7] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -651,7 +651,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[2] = {
-				['angle'] = -2.064,
+				['angle'] = 357.936,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -664,7 +664,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[3] = {
-				['angle'] = -2.268,
+				['angle'] = 355.668,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -677,7 +677,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[4] = {
-				['angle'] = 0.409,
+				['angle'] = 356.077,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -690,7 +690,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[5] = {
-				['angle'] = 0.372,
+				['angle'] = 356.449,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -703,7 +703,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[6] = {
-				['angle'] = 0.184,
+				['angle'] = 356.633,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -716,7 +716,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[7] = {
-				['angle'] = 0.25,
+				['angle'] = 356.883,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -729,7 +729,7 @@ local anim = {
 				['pivot_y'] = 107
 			},
 			[8] = {
-				['angle'] = 1.094,
+				['angle'] = 357.977,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -744,7 +744,7 @@ local anim = {
 		},
 		[8] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -757,7 +757,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[2] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -770,7 +770,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[3] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -783,7 +783,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[4] = {
-				['angle'] = -1.053,
+				['angle'] = 358.947,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -796,7 +796,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[5] = {
-				['angle'] = -0.957,
+				['angle'] = 357.99,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -809,7 +809,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[6] = {
-				['angle'] = 0.694,
+				['angle'] = 358.684,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -822,7 +822,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[7] = {
-				['angle'] = 0.94,
+				['angle'] = 359.624,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -835,7 +835,7 @@ local anim = {
 				['pivot_y'] = 124
 			},
 			[8] = {
-				['angle'] = 0.132,
+				['angle'] = 359.756,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -850,7 +850,7 @@ local anim = {
 		},
 		[9] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -863,7 +863,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[2] = {
-				['angle'] = -1.03,
+				['angle'] = 358.97,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -876,7 +876,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[3] = {
-				['angle'] = -1.131,
+				['angle'] = 357.839,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -889,7 +889,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[4] = {
-				['angle'] = -1.696,
+				['angle'] = 356.143,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -902,7 +902,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[5] = {
-				['angle'] = -1.538,
+				['angle'] = 354.605,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -915,7 +915,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[6] = {
-				['angle'] = 0.397,
+				['angle'] = 355.002,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -928,7 +928,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[7] = {
-				['angle'] = 0.539,
+				['angle'] = 355.541,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -941,7 +941,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[8] = {
-				['angle'] = 1.566,
+				['angle'] = 357.107,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -956,7 +956,7 @@ local anim = {
 		},
 		[10] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -969,7 +969,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[2] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -982,7 +982,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[3] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -995,7 +995,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[4] = {
-				['angle'] = -1.165,
+				['angle'] = 358.835,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -1008,7 +1008,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[5] = {
-				['angle'] = -1.058,
+				['angle'] = 357.777,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -1021,7 +1021,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[6] = {
-				['angle'] = 1.388,
+				['angle'] = 359.165,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -1034,7 +1034,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[7] = {
-				['angle'] = 1.88401,
+				['angle'] = 1.04901,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -1047,7 +1047,7 @@ local anim = {
 				['pivot_y'] = 26
 			},
 			[8] = {
-				['angle'] = -0.368315,
+				['angle'] = 0.680695,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -1062,7 +1062,7 @@ local anim = {
 		},
 		[11] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'head_2.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1088,7 +1088,7 @@ local anim = {
 				['pivot_y'] = 71
 			},
 			[3] = {
-				['angle'] = 1.21115,
+				['angle'] = 2.31372,
 				['texture'] = 'head_2.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1101,7 +1101,7 @@ local anim = {
 				['pivot_y'] = 71
 			},
 			[4] = {
-				['angle'] = 2.91235,
+				['angle'] = 5.22607,
 				['texture'] = 'head_1.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1114,7 +1114,7 @@ local anim = {
 				['pivot_y'] = 71
 			},
 			[5] = {
-				['angle'] = 2.64313,
+				['angle'] = 7.8692,
 				['texture'] = 'head_0.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1127,7 +1127,7 @@ local anim = {
 				['pivot_y'] = 71
 			},
 			[6] = {
-				['angle'] = -0.5751,
+				['angle'] = 7.2941,
 				['texture'] = 'head_1.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1140,7 +1140,7 @@ local anim = {
 				['pivot_y'] = 71
 			},
 			[7] = {
-				['angle'] = -0.78015,
+				['angle'] = 6.51395,
 				['texture'] = 'head_2.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1153,7 +1153,7 @@ local anim = {
 				['pivot_y'] = 71
 			},
 			[8] = {
-				['angle'] = -2.28711,
+				['angle'] = 4.22684,
 				['texture'] = 'head_3.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -1181,7 +1181,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[2] = {
-				['angle'] = -3.13244,
+				['angle'] = 7.17236,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1194,7 +1194,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[3] = {
-				['angle'] = -3.44096,
+				['angle'] = 3.7314,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1207,7 +1207,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[4] = {
-				['angle'] = -6.7904,
+				['angle'] = 356.941,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1220,7 +1220,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[5] = {
-				['angle'] = -6.162,
+				['angle'] = 350.779,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1233,7 +1233,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[6] = {
-				['angle'] = 7.726,
+				['angle'] = 358.505,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1246,7 +1246,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[7] = {
-				['angle'] = 10.48105,
+				['angle'] = 8.98605,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1259,7 +1259,7 @@ local anim = {
 				['pivot_y'] = 59
 			},
 			[8] = {
-				['angle'] = 0.46305,
+				['angle'] = 9.4491,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1287,7 +1287,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[2] = {
-				['angle'] = 2.8213,
+				['angle'] = 18.9121,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1300,7 +1300,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[3] = {
-				['angle'] = 3.0992,
+				['angle'] = 22.0113,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1313,7 +1313,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[4] = {
-				['angle'] = -8.6089,
+				['angle'] = 13.4024,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1326,7 +1326,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[5] = {
-				['angle'] = -7.81309,
+				['angle'] = 5.58931,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1339,7 +1339,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[6] = {
-				['angle'] = -3.50078,
+				['angle'] = 2.08853,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1352,7 +1352,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[7] = {
-				['angle'] = -4.74853,
+				['angle'] = 357.34,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1365,7 +1365,7 @@ local anim = {
 				['pivot_y'] = 72
 			},
 			[8] = {
-				['angle'] = 6.5834,
+				['angle'] = 3.9234,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1393,7 +1393,7 @@ local anim = {
 				['pivot_y'] = 85
 			},
 			[2] = {
-				['angle'] = 0.91458,
+				['angle'] = 9.04468,
 				['texture'] = 'hand_0_1.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1406,7 +1406,7 @@ local anim = {
 				['pivot_y'] = 85
 			},
 			[3] = {
-				['angle'] = 1.00462,
+				['angle'] = 10.0493,
 				['texture'] = 'hand_0_2.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1419,7 +1419,7 @@ local anim = {
 				['pivot_y'] = 85
 			},
 			[4] = {
-				['angle'] = -5.26811,
+				['angle'] = 4.78119,
 				['texture'] = 'hand_0_3.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1432,7 +1432,7 @@ local anim = {
 				['pivot_y'] = 85
 			},
 			[5] = {
-				['angle'] = -4.78119,
+				['angle'] = 0,
 				['texture'] = 'hand_0_2.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1458,7 +1458,7 @@ local anim = {
 				['pivot_y'] = 85
 			},
 			[7] = {
-				['angle'] = 0.527681,
+				['angle'] = 0.916658,
 				['texture'] = 'hand_0_0.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1471,7 +1471,7 @@ local anim = {
 				['pivot_y'] = 85
 			},
 			[8] = {
-				['angle'] = 2.532712,
+				['angle'] = 3.44937,
 				['texture'] = 'hand_0_0.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1488,7 +1488,7 @@ local anim = {
 	['Posture'] = {
 		[1] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1501,7 +1501,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[2] = {
-				['angle'] = -12.514481,
+				['angle'] = 347.485519,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1514,7 +1514,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[3] = {
-				['angle'] = -11.230943,
+				['angle'] = 336.254576,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1527,7 +1527,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[4] = {
-				['angle'] = -12.942328,
+				['angle'] = 323.312248,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1540,7 +1540,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[5] = {
-				['angle'] = -13.156246,
+				['angle'] = 310.156002,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1553,7 +1553,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[6] = {
-				['angle'] = 10.174149,
+				['angle'] = 320.330151,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1566,7 +1566,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[7] = {
-				['angle'] = 10.45763,
+				['angle'] = 330.787781,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1579,7 +1579,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[8] = {
-				['angle'] = 8.729095,
+				['angle'] = 339.516876,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1592,7 +1592,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[9] = {
-				['angle'] = 8.469815,
+				['angle'] = 347.986691,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1605,7 +1605,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[10] = {
-				['angle'] = 7.173415,
+				['angle'] = 355.160106,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1618,7 +1618,7 @@ local anim = {
 				['pivot_y'] = 79
 			},
 			[11] = {
-				['angle'] = 2.271787,
+				['angle'] = 357.431893,
 				['texture'] = 'forearm_0.png',
 				['zindex'] = 12,
 				['scale_x'] = 1,
@@ -1633,7 +1633,7 @@ local anim = {
 		},
 		[2] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1646,7 +1646,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[2] = {
-				['angle'] = -11.298284,
+				['angle'] = 348.701716,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1659,7 +1659,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[3] = {
-				['angle'] = -10.139485,
+				['angle'] = 338.562231,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1672,7 +1672,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[4] = {
-				['angle'] = -11.684549,
+				['angle'] = 326.877682,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1685,7 +1685,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[5] = {
-				['angle'] = -11.877682,
+				['angle'] = 315,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1698,7 +1698,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[6] = {
-				['angle'] = 9.185394,
+				['angle'] = 324.185394,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1711,7 +1711,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[7] = {
-				['angle'] = 9.441323,
+				['angle'] = 333.626717,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1724,7 +1724,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[8] = {
-				['angle'] = 7.880773,
+				['angle'] = 341.50749,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1737,7 +1737,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[9] = {
-				['angle'] = 7.646691,
+				['angle'] = 349.154181,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1750,7 +1750,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[10] = {
-				['angle'] = 6.476281,
+				['angle'] = 355.630462,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1763,7 +1763,7 @@ local anim = {
 				['pivot_y'] = 60
 			},
 			[11] = {
-				['angle'] = 2.051007,
+				['angle'] = 357.681469,
 				['texture'] = 'shoulder_0.png',
 				['zindex'] = 11,
 				['scale_x'] = 1,
@@ -1778,7 +1778,7 @@ local anim = {
 		},
 		[3] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1791,7 +1791,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[2] = {
-				['angle'] = -0.781048,
+				['angle'] = 359.218952,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1804,7 +1804,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[3] = {
-				['angle'] = -0.700941,
+				['angle'] = 358.518011,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1817,7 +1817,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[4] = {
-				['angle'] = -0.80775,
+				['angle'] = 357.710261,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1830,7 +1830,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[5] = {
-				['angle'] = -0.821102,
+				['angle'] = 356.889159,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1843,7 +1843,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[6] = {
-				['angle'] = 0.634984,
+				['angle'] = 357.524143,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1856,7 +1856,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[7] = {
-				['angle'] = 0.652677,
+				['angle'] = 358.17682,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1869,7 +1869,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[8] = {
-				['angle'] = 0.544797,
+				['angle'] = 358.721617,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1882,7 +1882,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[9] = {
-				['angle'] = 0.528614,
+				['angle'] = 359.250231,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1895,7 +1895,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[10] = {
-				['angle'] = 0.447704,
+				['angle'] = 359.697935,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1908,7 +1908,7 @@ local anim = {
 				['pivot_y'] = 134
 			},
 			[11] = {
-				['angle'] = 0.141785,
+				['angle'] = 359.83972,
 				['texture'] = 'foot_a.png',
 				['zindex'] = 4,
 				['scale_x'] = 1,
@@ -1923,7 +1923,7 @@ local anim = {
 		},
 		[4] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'hand_0_1.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1936,7 +1936,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[2] = {
-				['angle'] = -9.353797,
+				['angle'] = 350.646203,
 				['texture'] = 'hand_0_2.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1949,7 +1949,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[3] = {
-				['angle'] = -8.394433,
+				['angle'] = 342.25177,
 				['texture'] = 'hand_0_3.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1962,7 +1962,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[4] = {
-				['angle'] = -9.673584,
+				['angle'] = 332.578186,
 				['texture'] = 'hand_0_2.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1975,7 +1975,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[5] = {
-				['angle'] = -9.833477,
+				['angle'] = 322.744709,
 				['texture'] = 'hand_0_1.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -1988,7 +1988,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[6] = {
-				['angle'] = 7.604544,
+				['angle'] = 330.349253,
 				['texture'] = 'hand_0_0.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -2001,7 +2001,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[7] = {
-				['angle'] = 7.816427,
+				['angle'] = 338.16568,
 				['texture'] = 'hand_0_2.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -2014,7 +2014,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[8] = {
-				['angle'] = 6.524456,
+				['angle'] = 344.690136,
 				['texture'] = 'hand_0_3.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -2027,7 +2027,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[9] = {
-				['angle'] = 6.330661,
+				['angle'] = 351.020797,
 				['texture'] = 'hand_0_2.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -2040,7 +2040,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[10] = {
-				['angle'] = 5.361682,
+				['angle'] = 356.382479,
 				['texture'] = 'hand_0_1.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -2053,7 +2053,7 @@ local anim = {
 				['pivot_y'] = 90
 			},
 			[11] = {
-				['angle'] = 1.69802,
+				['angle'] = 358.080499,
 				['texture'] = 'hand_0_0.png',
 				['zindex'] = 13,
 				['scale_x'] = 1,
@@ -2068,7 +2068,7 @@ local anim = {
 		},
 		[5] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2094,7 +2094,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[3] = {
-				['angle'] = 6.594727,
+				['angle'] = 13.943146,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2107,7 +2107,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[4] = {
-				['angle'] = 7.599609,
+				['angle'] = 21.542755,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2120,7 +2120,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[5] = {
-				['angle'] = 7.725241,
+				['angle'] = 29.267996,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2133,7 +2133,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[6] = {
-				['angle'] = -5.974173,
+				['angle'] = 23.293823,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2146,7 +2146,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[7] = {
-				['angle'] = -6.140625,
+				['angle'] = 17.153198,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2159,7 +2159,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[8] = {
-				['angle'] = -5.125671,
+				['angle'] = 12.027527,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2172,7 +2172,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[9] = {
-				['angle'] = -4.973419,
+				['angle'] = 7.054108,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2185,7 +2185,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[10] = {
-				['angle'] = -4.212159,
+				['angle'] = 2.841949,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2198,7 +2198,7 @@ local anim = {
 				['pivot_y'] = 115
 			},
 			[11] = {
-				['angle'] = -1.333984,
+				['angle'] = 1.507965,
 				['texture'] = 'shoulder_a.png',
 				['zindex'] = 1,
 				['scale_x'] = 1,
@@ -2213,7 +2213,7 @@ local anim = {
 		},
 		[6] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2226,7 +2226,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[2] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2239,7 +2239,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[3] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2252,7 +2252,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[4] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2265,7 +2265,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[5] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2278,7 +2278,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[6] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2291,7 +2291,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[7] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2304,7 +2304,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[8] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2317,7 +2317,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[9] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2330,7 +2330,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[10] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2343,7 +2343,7 @@ local anim = {
 				['pivot_y'] = 37
 			},
 			[11] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'shadow_idle.png',
 				['zindex'] = 0,
 				['scale_x'] = 1,
@@ -2358,7 +2358,7 @@ local anim = {
 		},
 		[7] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'hand_a_0.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2384,7 +2384,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[3] = {
-				['angle'] = 7.833344,
+				['angle'] = 16.561951,
 				['texture'] = 'hand_a_3.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2397,7 +2397,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[4] = {
-				['angle'] = 9.027008,
+				['angle'] = 25.588959,
 				['texture'] = 'hand_a_3.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2410,7 +2410,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[5] = {
-				['angle'] = 9.176239,
+				['angle'] = 34.765198,
 				['texture'] = 'hand_a_2.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2423,7 +2423,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[6] = {
-				['angle'] = -7.096253,
+				['angle'] = 27.668945,
 				['texture'] = 'hand_a_1.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2436,7 +2436,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[7] = {
-				['angle'] = -7.294006,
+				['angle'] = 20.374939,
 				['texture'] = 'hand_a_0.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2449,7 +2449,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[8] = {
-				['angle'] = -6.088379,
+				['angle'] = 14.28656,
 				['texture'] = 'hand_a_1.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2462,7 +2462,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[9] = {
-				['angle'] = -5.907532,
+				['angle'] = 8.379028,
 				['texture'] = 'hand_a_2.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2475,7 +2475,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[10] = {
-				['angle'] = -5.003296,
+				['angle'] = 3.375732,
 				['texture'] = 'hand_a_1.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2488,7 +2488,7 @@ local anim = {
 				['pivot_y'] = 48
 			},
 			[11] = {
-				['angle'] = -1.584533,
+				['angle'] = 1.791199,
 				['texture'] = 'hand_a_0.png',
 				['zindex'] = 3,
 				['scale_x'] = 1,
@@ -2503,7 +2503,7 @@ local anim = {
 		},
 		[8] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2529,7 +2529,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[3] = {
-				['angle'] = 8.694122,
+				['angle'] = 18.381866,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2542,7 +2542,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[4] = {
-				['angle'] = 10.018952,
+				['angle'] = 28.400818,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2555,7 +2555,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[5] = {
-				['angle'] = 10.184582,
+				['angle'] = 38.5854,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2568,7 +2568,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[6] = {
-				['angle'] = -7.876049,
+				['angle'] = 30.709351,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2581,7 +2581,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[7] = {
-				['angle'] = -8.09549,
+				['angle'] = 22.613861,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2594,7 +2594,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[8] = {
-				['angle'] = -6.757385,
+				['angle'] = 15.856476,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2607,7 +2607,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[9] = {
-				['angle'] = -6.556671,
+				['angle'] = 9.299805,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2620,7 +2620,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[10] = {
-				['angle'] = -5.553131,
+				['angle'] = 3.746674,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2633,7 +2633,7 @@ local anim = {
 				['pivot_y'] = 51
 			},
 			[11] = {
-				['angle'] = -1.758637,
+				['angle'] = 1.988037,
 				['texture'] = 'forearm_a.png',
 				['zindex'] = 2,
 				['scale_x'] = 1,
@@ -2648,7 +2648,7 @@ local anim = {
 		},
 		[9] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2661,7 +2661,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[2] = {
-				['angle'] = -1.095998,
+				['angle'] = 358.904002,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2674,7 +2674,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[3] = {
-				['angle'] = -0.983589,
+				['angle'] = 357.920413,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2687,7 +2687,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[4] = {
-				['angle'] = -1.133468,
+				['angle'] = 356.786945,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2700,7 +2700,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[5] = {
-				['angle'] = -1.152203,
+				['angle'] = 355.634742,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2713,7 +2713,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[6] = {
-				['angle'] = 0.891036,
+				['angle'] = 356.525778,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2726,7 +2726,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[7] = {
-				['angle'] = 0.915862,
+				['angle'] = 357.44164,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2739,7 +2739,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[8] = {
-				['angle'] = 0.76448,
+				['angle'] = 358.20612,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2752,7 +2752,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[9] = {
-				['angle'] = 0.741773,
+				['angle'] = 358.947893,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2765,7 +2765,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[10] = {
-				['angle'] = 0.628237,
+				['angle'] = 359.57613,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2778,7 +2778,7 @@ local anim = {
 				['pivot_y'] = 149
 			},
 			[11] = {
-				['angle'] = 0.198959,
+				['angle'] = 359.775089,
 				['texture'] = 'pelvis_0.png',
 				['zindex'] = 6,
 				['scale_x'] = 1,
@@ -2793,7 +2793,7 @@ local anim = {
 		},
 		[10] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2819,7 +2819,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[3] = {
-				['angle'] = 0.91336,
+				['angle'] = 1.931091,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2832,7 +2832,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[4] = {
-				['angle'] = 1.052521,
+				['angle'] = 2.983612,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2845,7 +2845,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[5] = {
-				['angle'] = 1.069942,
+				['angle'] = 4.053554,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2858,7 +2858,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[6] = {
-				['angle'] = -0.827419,
+				['angle'] = 3.226135,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2871,7 +2871,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[7] = {
-				['angle'] = -0.850464,
+				['angle'] = 2.375671,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2884,7 +2884,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[8] = {
-				['angle'] = -0.7099,
+				['angle'] = 1.665771,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2897,7 +2897,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[9] = {
-				['angle'] = -0.688812,
+				['angle'] = 0.976959,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2910,7 +2910,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[10] = {
-				['angle'] = -0.583374,
+				['angle'] = 0.393585,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2923,7 +2923,7 @@ local anim = {
 				['pivot_y'] = 83
 			},
 			[11] = {
-				['angle'] = -0.184753,
+				['angle'] = 0.208832,
 				['texture'] = 'thigh_a.png',
 				['zindex'] = 5,
 				['scale_x'] = 1,
@@ -2938,7 +2938,7 @@ local anim = {
 		},
 		[11] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -2951,7 +2951,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[2] = {
-				['angle'] = -1.405843,
+				['angle'] = 358.594157,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -2964,7 +2964,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[3] = {
-				['angle'] = -1.261653,
+				['angle'] = 357.332504,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -2977,7 +2977,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[4] = {
-				['angle'] = -1.453906,
+				['angle'] = 355.878598,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -2990,7 +2990,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[5] = {
-				['angle'] = -1.477937,
+				['angle'] = 354.400661,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3003,7 +3003,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[6] = {
-				['angle'] = 1.142936,
+				['angle'] = 355.543597,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3016,7 +3016,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[7] = {
-				['angle'] = 1.174782,
+				['angle'] = 356.718379,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3029,7 +3029,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[8] = {
-				['angle'] = 0.980603,
+				['angle'] = 357.698982,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3042,7 +3042,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[9] = {
-				['angle'] = 0.951476,
+				['angle'] = 358.650458,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3055,7 +3055,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[10] = {
-				['angle'] = 0.805841,
+				['angle'] = 359.456299,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3068,7 +3068,7 @@ local anim = {
 				['pivot_y'] = 131
 			},
 			[11] = {
-				['angle'] = 0.255207,
+				['angle'] = 359.711506,
 				['texture'] = 'thigh_0.png',
 				['zindex'] = 8,
 				['scale_x'] = 1,
@@ -3083,7 +3083,7 @@ local anim = {
 		},
 		[12] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3096,7 +3096,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[2] = {
-				['angle'] = -0.813401,
+				['angle'] = 359.186599,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3109,7 +3109,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[3] = {
-				['angle'] = -0.729975,
+				['angle'] = 358.456624,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3122,7 +3122,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[4] = {
-				['angle'] = -0.84121,
+				['angle'] = 357.615414,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3135,7 +3135,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[5] = {
-				['angle'] = -0.855114,
+				['angle'] = 356.7603,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3148,7 +3148,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[6] = {
-				['angle'] = 0.661287,
+				['angle'] = 357.421587,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3161,7 +3161,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[7] = {
-				['angle'] = 0.679712,
+				['angle'] = 358.101299,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3174,7 +3174,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[8] = {
-				['angle'] = 0.567364,
+				['angle'] = 358.668663,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3187,7 +3187,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[9] = {
-				['angle'] = 0.55051,
+				['angle'] = 359.219173,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3200,7 +3200,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[10] = {
-				['angle'] = 0.466249,
+				['angle'] = 359.685422,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3213,7 +3213,7 @@ local anim = {
 				['pivot_y'] = 126
 			},
 			[11] = {
-				['angle'] = 0.147659,
+				['angle'] = 359.833081,
 				['texture'] = 'foot_0.png',
 				['zindex'] = 7,
 				['scale_x'] = 1,
@@ -3228,7 +3228,7 @@ local anim = {
 		},
 		[13] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'head_0.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3254,7 +3254,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[3] = {
-				['angle'] = 3.260467,
+				['angle'] = 6.893585,
 				['texture'] = 'head_2.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3267,7 +3267,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[4] = {
-				['angle'] = 3.757294,
+				['angle'] = 10.650879,
 				['texture'] = 'head_3.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3280,7 +3280,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[5] = {
-				['angle'] = 3.819415,
+				['angle'] = 14.470294,
 				['texture'] = 'head_2.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3293,7 +3293,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[6] = {
-				['angle'] = -2.953662,
+				['angle'] = 11.516632,
 				['texture'] = 'head_1.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3306,7 +3306,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[7] = {
-				['angle'] = -3.03598,
+				['angle'] = 8.480652,
 				['texture'] = 'head_0.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3319,7 +3319,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[8] = {
-				['angle'] = -2.534149,
+				['angle'] = 5.946503,
 				['texture'] = 'head_1.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3332,7 +3332,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[9] = {
-				['angle'] = -2.458893,
+				['angle'] = 3.48761,
 				['texture'] = 'head_3.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3345,7 +3345,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[10] = {
-				['angle'] = -2.08252,
+				['angle'] = 1.40509,
 				['texture'] = 'head_2.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3358,7 +3358,7 @@ local anim = {
 				['pivot_y'] = 74
 			},
 			[11] = {
-				['angle'] = -0.659546,
+				['angle'] = 0.745544,
 				['texture'] = 'head_1.png',
 				['zindex'] = 10,
 				['scale_x'] = 1,
@@ -3373,7 +3373,7 @@ local anim = {
 		},
 		[14] = {
 			[1] = {
-				['angle'] = 0.0,
+				['angle'] = 0,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3386,7 +3386,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[2] = {
-				['angle'] = -1.196021,
+				['angle'] = 358.803979,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3399,7 +3399,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[3] = {
-				['angle'] = -1.073353,
+				['angle'] = 357.730626,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3412,7 +3412,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[4] = {
-				['angle'] = -1.236911,
+				['angle'] = 356.493715,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3425,7 +3425,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[5] = {
-				['angle'] = -1.257356,
+				['angle'] = 355.236359,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3438,7 +3438,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[6] = {
-				['angle'] = 0.972354,
+				['angle'] = 356.208713,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3451,7 +3451,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[7] = {
-				['angle'] = 0.999446,
+				['angle'] = 357.208159,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3464,7 +3464,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[8] = {
-				['angle'] = 0.834248,
+				['angle'] = 358.042407,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3477,7 +3477,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[9] = {
-				['angle'] = 0.809469,
+				['angle'] = 358.851876,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3490,7 +3490,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[10] = {
-				['angle'] = 0.68557,
+				['angle'] = 359.537446,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,
@@ -3503,7 +3503,7 @@ local anim = {
 				['pivot_y'] = 28
 			},
 			[11] = {
-				['angle'] = 0.217117,
+				['angle'] = 359.754563,
 				['texture'] = 'torso_0.png',
 				['zindex'] = 9,
 				['scale_x'] = 1,

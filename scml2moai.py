@@ -128,26 +128,6 @@ def output_lua(anim_data, outpath, scale):
 					elif anim_property == "texture":
 						f.write('\t\t\t\t[\'%s\'] = \'%s\'' % (anim_property, value))
 						
-					elif anim_property == "angle":
-						# Calculate angle delta
-						new_angle = float(value)
-						if iii > 0:
-							prev_angle = float(timeline.values()[iii-1]['angle'])
-							prev_spin = int(timeline.values()[iii-1]['spin'])
-						else:
-							prev_angle = 0
-							prev_spin = 0
-						spin = prev_spin #int(keyframe['spin'])
-						if spin >= 0 and iii > 0 and new_angle != prev_angle:
-							angle = new_angle - prev_angle if new_angle > prev_angle else (360 - prev_angle) + new_angle
-						elif spin < 0 and iii > 0  and new_angle != prev_angle:
-							angle = new_angle - prev_angle if new_angle < prev_angle else (-360 - prev_angle) + new_angle
-						else:
-							angle = new_angle
-						#print "texture: %s, angle: %6.2f, spin: %6.2f, new_angle: %6.2f, prev_angle: %6.2f" % (keyframe['texture'], angle, spin, new_angle, prev_angle)
-						f.write('\t\t\t\t[\'%s\'] = %s' % (anim_property, angle))
-						prev_angle = angle
-						
 					else:
 						f.write('\t\t\t\t[\'%s\'] = %s' % (anim_property, value))
 					
