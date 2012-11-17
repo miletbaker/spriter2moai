@@ -15,7 +15,7 @@ MOAISim.pushRenderPass ( layer )
 gfxQuads, names = tpsloader ( 'monster.lua', 'monster.png' )
 sprite = spriter("example.lua", gfxQuads, names)
 
-anim = sprite:createAnim ( "Idle" )
+anim = sprite:createAnim ( "Posture" )
 --anim = sprite:createAnim ( "Idle" )
 anim:insertProps ( layer )
 anim:start ()
