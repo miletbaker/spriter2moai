@@ -42,7 +42,7 @@ class SaxHandler (xml.sax.handler.ContentHandler):
 			
 		elif name == 'animation':
 			# Store each animation
-			loop = False if attrs.getValue('looping') == 'false' else True
+			loop = False if attrs.has_key('looping') and attrs.getValue('looping') == 'false' else True
 			self.animation_name = attrs.getValue('name')
 			self.animations[self.animation_name] = { 'loop' : loop , 'length' : attrs.getValue('length') }
 			
